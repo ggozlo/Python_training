@@ -15,7 +15,6 @@ print ('T', 'E','S','T', sep='')
 print ( 'T'+'E'+'S'+'T')
 print('2019','02','19',sep='-')
 print('niceman','google.com',sep='@')
-
 # end 옵션 사용
 print('Welcome to', end='-')
 print(' the new paradise', end = "***")
