@@ -72,7 +72,8 @@ for a6 in q6 :
     else :
         continue
 
-
+q11 = [ x for x in q6 if x != '정']
+print(q11)
 # 7. 1부터 100까지 자연수 중 '홀수'만 한 라인으로 출력 하세요.
 
 # q7 = 0
@@ -86,6 +87,9 @@ for a6 in q6 :
 for q7 in range(1, 101) : 
     if q7 % 2 == 1 : 
         print(q7)
+
+q12 = [ x for x in range(1, 101) if x % 2 == 1]
+print(q12)
     
 
 # 8. 아래 리스트 항목 중에서 5글자 이상의 단어만 출력하세요.
