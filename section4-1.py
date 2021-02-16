@@ -66,3 +66,4 @@ print(n, m)
 import math 
 print(math.ceil(9.1)) # 소숫점을 올림 정수형 출력
 print(math.floor(10.9)) # 소숫점을 내림  정수형 출력
+
