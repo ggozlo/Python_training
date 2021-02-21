@@ -104,7 +104,7 @@ finally:
 try: 
     z = 'jim'
     x = name.index(z)
-    print('{} found if! in name'.format(z,x+1))
+    print('{} found if! in name'.format(z))
 except ValueError as l : # 오류 출력 내용을 allias 를 이용하여 변수에 저장도 가능함
     print(l)
 except IndexError :
